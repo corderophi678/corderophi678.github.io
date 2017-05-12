@@ -1,0 +1,38 @@
+{
+  "name": "corderophilosophy.com",
+  "description": "Developer, Philosopher, and Consultant, Dr. Rich Cordero.",
+  "version": "1.0.0",
+  "author": "Dr. Rich Cordero <rich@corderophilosophy.com>",
+  "dependencies": {
+    "gatsby": "^0.12.41",
+    "lodash": "^4.17.2",
+    "moment": "^2.18.1",
+    "react-addons-shallow-compare": "^15.5.2",
+    "react-dates": "^4.1.0",
+    "react-helmet": "^3.2.2",
+    "react-responsive-grid": "^0.3.3",
+    "react-typography": "^0.15.0",
+    "typography": "^0.15.0",
+    "typography-theme-funston": "^0.15.10",
+    "typography-theme-wordpress-2016": "^0.15.0",
+    "underscore.string": "^3.2.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.12.0"
+  },
+  "keywords": [
+    "gatsby",
+    "philosophy",
+    "personal blog"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "dev": "gatsby develop",
+    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "deploy": "gatsby build --prefix-links && gh-pages -d public"
+  }
+}

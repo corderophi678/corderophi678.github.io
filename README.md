@@ -1,1 +1,4 @@
-# corderophi678.github.io
+# corderophilosophy.com 
+
+Bootstrapped with Gatsby using Gatsby starter 
+
